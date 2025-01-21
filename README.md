@@ -32,7 +32,7 @@ O objetivo é gerenciar suas tarefas como se fossem inimigos a serem derrotados 
 
 <br/>
 
-## © Carol Gonzaga 🏳️‍🌈
+## © Carol Gonzaga
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/yZq4x7DQ)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/anacquesta) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/anacarolgonzaga) 
