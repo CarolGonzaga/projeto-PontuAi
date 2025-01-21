@@ -1,5 +1,5 @@
 # Projeto - Lista de Tarefas com XP
-- Projeto 17 - Desenvolvimento Front-End com TypeScript ([LINK PROJETO](https://carolgonzaga.github.io/projeto-PontuAi/))
+- Projeto 17 - Desenvolvimento Front-End com TypeScript ([LINK PROJETO](https://carolgonzaga.github.io/projeto-pontua-ai/))
 - Aplicação Web para gerenciamento de tarefas com sistema de XP
 
 <br/>
