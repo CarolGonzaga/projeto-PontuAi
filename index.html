@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Lista de Tarefas</title>
+    
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    
+    <!-- ESTILO -->
+    <link rel="stylesheet" href="./style/styles.css" />
+</head>
+
+<body>
+
+    <main>
+        <img class="logo" src="./images/logo.png" alt="estrelas e uma barra abaixo com o nome do site dentro">
+
+        <form>
+            <input id="input-tarefa" type="text"
+                placeholder="Informe um novo inimigo" required></input>
+            <input id="input-ponto" type="number"
+            placeholder="Experiência (XP)" required></input>
+            <button id="adicionar-tarefa">Adicionar</button>
+        </form>
+
+        <div class="container-pontos">
+            <h3>Total de XP</h3>
+            <p id="xp">0</p>
+        </div>
+
+        <div class="container-listas">
+            
+            <div class="container-lista-vivos">
+                <h2>Inimigos Vivos</h2>
+                <hr />
+                <p id="mensagem-lista-vazia">
+                    Não há nenhum inimigo para você enfrentar por enquanto. Adicione novos e acumule XP ao derrotá-los.
+                </p>
+                <ul id="lista-tarefas-abertas">
+                </ul>
+            </div>
+
+            <div id="container-lista-derrotados">
+                <h2>Inimigos Derrotados</h2>
+                <hr />
+                <ul id="lista-tarefas-concluidas">
+                    <!-- <li>
+                        <div class="lista-item-container">
+                
+                            <div class="container-item">
+                                <div class="container-checkbox">
+                                    <label for="checkbox-1">
+                                        <input type="checkbox" class="input-checkbox" id="checkbox-1" />
+                                        <div class="checkbox-customizado checked"></div>
+                                    </label>
+                                </div>
+                                <p class="riscado">Passear com o Dog</p>
+                                <span>30</span>
+                            </div>
+                            <div class="container-botao-tarefa">
+                                <button class="tarefa-button">
+                                    <img src="./images/delete.png" alt="remover">
+                                </button>
+                                <button class="tarefa-button">
+                                    <img src="./images/edit.png" alt="editar">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="lista-item-container">
+                
+                            <div class="container-item">
+                                <div class="container-checkbox">
+                                    <label for="checkbox-1">
+                                        <input type="checkbox" class="input-checkbox" id="checkbox-1" />
+                                        <div class="checkbox-customizado checked"></div>
+                                    </label>
+                                </div>
+                                <p class="riscado">Ir no dentista</p>
+                                <span>100</span>
+                            </div>
+                            <div class="container-botao-tarefa">
+                                <button class="tarefa-button">
+                                    <img src="./images/delete.png" alt="remover">
+                                </button>
+                                <button class="tarefa-button">
+                                    <img src="./images/edit.png" alt="editar">
+                                </button>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>
+                Desenvolvido por <a href="https://carolgonzaga.github.io/projeto-linkme/">©CarolGonzaga</a>
+            </p>
+        </footer>
+    </main>
+    <script src="./dist/scripts.js" type="module"></script>
+</body>
+
+</html>

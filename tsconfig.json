@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "strict": true,
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "rootDir": "./js",
+    "esModuleInterop": true
+  },
+  "include": ["js"],
+  "exclude": ["node_modules"]
+}
